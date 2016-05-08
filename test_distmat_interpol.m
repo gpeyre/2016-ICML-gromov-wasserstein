@@ -106,7 +106,7 @@ for i=1:Nshape
     opt.smooth_iter = 0; % control smoothness of the boundary.
     switch dist_mode
         case 'euclidean'
-            opt.meshing_mode = 'delaunay'; % crude meshing
+            opt.meshing_mode = 'farthestpoint'; % crude meshing
         case 'geodesic'
             opt.meshing_mode = 'mesh2d'; % adaptive meshing
             opt.Nbound = 500; % #boundary point
@@ -190,7 +190,6 @@ options.niter = 40;
 options.niter_sinkhorn = 100;
 options.tol_sinkhorn = 1e-6; % tolerance on marginals for Sinkhorn
 options.tol_gw = 1e-4; % early stopping for GW
-% options.gamma_init = eye(N(1))/N(1);
 options.gamma_init = [];
 options.verb = 1;
 options.log_domain = 0; % use stabilization or not

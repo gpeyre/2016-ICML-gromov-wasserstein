@@ -98,7 +98,6 @@ switch meshing_mode
         F = F';
         
     otherwise
-        
         error('Unknown meshing mode.');
         
 end
