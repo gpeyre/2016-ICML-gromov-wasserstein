@@ -2,9 +2,9 @@
 
 Matlab code to reproduce some of the results of the paper
 
-> Gabriel Peyré, Marco Cuturi, Justin Solomon,
-> Gromov-Wasserstein Averaging of Kernel and Distance Matrices,
-> Proc. of ICML 2016. 
+Gabriel Peyré, Marco Cuturi, Justin Solomon, [Gromov-Wasserstein Averaging of Kernel and Distance Matrices](https://hal.archives-ouvertes.fr/hal-01322992), Proc. of ICML 2016.
+
+![Gromov-Wasserstein barycenters](imgs/gw-barycenters.png)
 
 Only implements the shape interpolation application.
 
